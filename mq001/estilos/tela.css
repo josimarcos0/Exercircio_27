@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
-/*Estilos para telas*/
+/* Estilos para telas */
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -12,28 +13,47 @@ html {
     font-size: 1em;
 }
 
-header{
-    background-color: rgb(57, 11, 11);
-}
-
-header > h1{
+header {
+    background-color: rgb(158, 158, 158);
+    padding: 20px 0;
     text-align: center;
 }
 
-menu ul{
-     list-style-type: none;
-     background-color:gray ;
+header > h1 {
+    margin-bottom: 10px;
 }
 
-menu li {
-    background-color: wheat;
-    color: black;
-    display: inline-block;
+nav > ul {
+    list-style-type: none;
+    background-color: gray;
     padding: 10px;
+    text-align: center;
 }
 
-article{
-    width: 600px;
+nav > ul > li {
+    background-color: rgb(75, 75, 75);
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+article {
+    max-width: 600px;
     display: block;
-    margin: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
