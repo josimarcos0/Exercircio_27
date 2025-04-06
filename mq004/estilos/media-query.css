@@ -1,3 +1,40 @@
 @charset "UTF-8";
 
-/*Configurações das mideas*/
+/*Todas as midias*/
+
+/*Typical Device Breakpints
+
+Pequenas telas:
+min: 0px – max: 479px
+
+Celular:
+min: 480px – max: 767px
+
+Tablet:
+min: 768px – max: 1023px
+
+Desktop:
+min: 1024px – max: 1439px
+
+Grandes telas:
+min: 1440px – sem máximo definido 
+*/
+
+
+
+
+@media print{
+
+}
+
+@media screen and (min-width:768px)  and (max-width:1023) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+}
+@media screen and (min-width:1023px)  and (max-width:1439) {
+    
+}
+@media screen and (min-width:1439px){
+    
+}
